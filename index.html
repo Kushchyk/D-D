@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<title>D&D</title>
+</head>
+<body>
+	<header class="border text">
+		<h1>D&D POKY SHO HZ</h1>
+		<div class="container_arrow">
+			<div class="arrow" id="arrow"></div>
+		</div>
+	</header> 
+	<main class="border text" id="main">
+		<section>
+			<header class="border" id="about_the_world">
+				<h2>
+					About the World
+				</h2>
+			</header>
+			<div class="content border" id="content-about_the_world">
+				<ul>
+					<li class="unlock-content" data-url="map.html">MAP</li>
+					<li class="unlock-content" data-url="political-system.html">Political system</li>
+					<li class="unlock-content" data-url="religion.html">Religion</li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<header class="border" id="books">
+				<h2>
+					Books
+				</h2>
+			</header>
+			<div class="content border" id="content-books">
+				<ul>
+					<li class="lock-content" data-url="holy-book.html">The Holy Book</li>
+					<li class="lock-content" data-url="soup-recipe.html">Soup Recipe</li>
+					<li class="lock-content" data-url="spellbook.html">Spellbook</li>
+				</ul>
+			</div>
+		</section>
+		
+		<section>
+			<header class="border" id="dices">
+				<h2>Dices</h2>
+			</header>
+		</section>
+		
+		
+</main>
+
+<div id="passwordModal" class="modal">
+	<div class="modal-content border text">
+			<h2>You don't have access to this section. Please enter the code.</h2>
+			<input style="color: #443D3D;" type="password" id="modal-password" placeholder="Enter Code">
+			<button class="border text" id="submit-password">Submit</button>
+			<button class="border text close">Close</button>
+	</div>
+</div>
+
+<div id="alertModal" class="modal info-modal">
+	<div class="modal-content border text">
+			<h2>The code is incorrect. Please try again.</h2>
+			<button class="border text confirm" id="alert-password">Ok</button>
+	</div>
+</div>
+
+<div id="accessModal" class="modal info-modal">
+	<div class="modal-content border text">
+			<h2>Access granted!</h2>
+			<button class="border text confirm" id="access-password">Ok</button>
+	</div>
+</div>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>

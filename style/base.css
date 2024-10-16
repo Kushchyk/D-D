@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+hr{
+	border: 1px solid #bebab4;
+	margin: 1% 0;
+}
+
+a{
+	text-decoration: none;
+	color: #bebab4;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { 
+	display: block;
+}
+
+ul{
+	list-style-type: none;
+}
+body{
+	line-height: 1;
+	background: #181515 url("../src/background_font.png") no-repeat;
+	background-size: cover;
+	background-blend-mode: multiply; 
+}
+
+.text{
+	font-family: "Press Start 2P", system-ui;
+	font-style: normal;
+	color: #A7A1A1;
+}
+
+.border{
+	border-left: #000 solid 8px;
+	border-right: #000 solid 20px;
+	border-bottom:  #000 solid 20px;
+}
