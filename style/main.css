@@ -24,7 +24,6 @@ main > section {
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
-
 	margin: 1em;
 }
 
@@ -196,3 +195,11 @@ button.confirm{
 	margin-top: 3em;
 }
 
+@media (max-width: 424px) {
+	main > section{
+		width: 70%;
+	}
+  .content, main > section > header {
+    width: 100%;
+  }
+}
